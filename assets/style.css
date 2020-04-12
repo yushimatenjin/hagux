@@ -1,0 +1,12 @@
+#root{
+    position: absolute;
+}
+#main {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+}
+button{
+    width: 120px;
+}
