@@ -1,0 +1,18 @@
+<head>
+  <script src="./lib/redux.js"></script>
+</head>
+<div id="main">
+  <div id="render"></div>
+</div>
+<button
+  onclick="{
+    const payload = {
+        title: 'Hello World',
+        body: 'contents'
+    }
+    store.dispatch({type:'SHOW_MODAL', payload})
+}"
+>
+  SHOW _MODAL
+</button>
+<script src="./main.js"></script>
